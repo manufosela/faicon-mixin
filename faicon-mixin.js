@@ -11,7 +11,6 @@ export let FaIcon = Base => class extends Base {
   getSVGFaIcon(iconName) {
     let node = this.getNodeFaIcon(iconName);
     let svg = node[0];
-    console.log(node[0]);
     return html`${svg}`;
   }
 };
