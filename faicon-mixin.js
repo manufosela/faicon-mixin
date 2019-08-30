@@ -1,7 +1,7 @@
 import { html } from 'lit-element';
 import '@fortawesome/fontawesome-free/js/all.js';
 
-let FavIcon = Base => class extends Base {
+let FaIcon = Base => class extends Base {
   getNodeFaIcon(iconName) {
     let obj = {prefix: 'fa', iconName: iconName};
     let icn = window.FontAwesome.icon(obj) || {node: ''};
