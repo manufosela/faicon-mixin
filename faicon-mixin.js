@@ -8,9 +8,11 @@ export let FaIcon = Base => class extends Base {
     return icn.node;
   }
 
-  getSVGFaIcon(iconName) {
+  getSVGFaIcon(iconName, size) {
+    size = size || '24px';
     let node = this.getNodeFaIcon(iconName);
     let svg = node[0];
+    svg.setAttribute('style', 'width: ' + size);
     return html`${svg}`;
   }
 };

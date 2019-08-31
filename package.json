@@ -1,7 +1,7 @@
 {
   "name": "faicon-mixin",
   "description": "Font Awesome mixin class",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "main": "faicon-mixin.js",
   "repository": {
     "type": "git",
